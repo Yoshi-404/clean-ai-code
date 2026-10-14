@@ -92,7 +92,20 @@ Copy [`platforms/copilot/copilot-instructions.md`](./platforms/copilot/copilot-i
 
 ---
 
-## Examples: Before vs. After
+## Bonus: Everyday Writing & Emails (No Emojis, No AI Clichés)
+
+AI vices don't just plague software code. When generating emails, reports, summaries, or articles, AI models constantly insert emojis into bullet points, use stale clichés (*"in today's fast-paced digital world"*, *"delve into"*), and patronize users with conversational fluff.
+
+We provide dedicated presets to turn your AI into an authentic, human-sounding writer:
+
+* **Google Gemini (Gems):** Create a custom Gem in Gemini using [`writing/gemini/gemini-gem-instructions.md`](./writing/gemini/gemini-gem-instructions.md).
+* **ChatGPT (Custom Instructions / GPTs):** Configure ChatGPT for clean writing with [`writing/chatgpt/chatgpt-instructions.md`](./writing/chatgpt/chatgpt-instructions.md).
+* **Claude (Projects):** Set up Claude Projects using [`writing/claude/claude-instructions.md`](./writing/claude/claude-instructions.md).
+* -> See before vs after comparisons of corporate emails and executive summaries in [`writing/examples/before-after-writing.md`](./writing/examples/before-after-writing.md).
+
+---
+
+## Examples: Before vs. After (Code)
 
 | Scenario | Default AI Habit (Vice) | Clean AI Code |
 | :--- | :--- | :--- |
@@ -112,22 +125,29 @@ Copy [`platforms/copilot/copilot-instructions.md`](./platforms/copilot/copilot-i
 
 ```text
 clean-ai-code/
-├── CORE_RULES.md            # Source of truth (English directives)
+├── CORE_RULES.md            # Core code rules (English for strict model adherence)
 ├── README.md                # Portuguese documentation
 ├── README.en.md             # English documentation
 ├── README.ja.md             # Japanese documentation
 ├── install.sh               # Universal Bash installer (macOS / Linux)
 ├── install.ps1              # PowerShell installer (Windows)
-├── platforms/
+├── platforms/               # Presets for coding assistants
 │   ├── antigravity/         # Preset for Antigravity & Gemini (Skill + Rule)
 │   ├── chatgpt/             # Preset for ChatGPT (Custom Instructions & System Prompt)
 │   ├── cursor/              # Preset for Cursor (.mdc and .cursorrules)
 │   ├── claude/              # Preset for Claude (CLAUDE.md)
 │   └── copilot/             # Preset for GitHub Copilot (.github/copilot-instructions.md)
+├── writing/                 # Presets for everyday text generation (emails, reports, essays)
+│   ├── CORE_WRITING_RULES.md # Core writing rules against emojis & AI clichés
+│   ├── gemini/              # Guide for Gemini Gems
+│   ├── chatgpt/             # Guide for ChatGPT (Writing)
+│   ├── claude/              # Guide for Claude Projects (Writing)
+│   └── examples/            # Real-world corporate email before vs after
 └── examples/
-    ├── before-after.md      # Before vs After comparisons
+    ├── before-after.md      # Before vs After comparisons (Code)
     └── bad-habits-hall-of-shame.md # AI vices catalog
 ```
+
 
 ---
 

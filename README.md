@@ -100,7 +100,20 @@ Copie o arquivo [`platforms/copilot/copilot-instructions.md`](./platforms/copilo
 
 ---
 
-## Exemplos: Antes vs. Depois
+## Bônus: Textos, E-mails e Redação do Dia a Dia
+
+Os vícios de IA não afetam apenas código. Ao redigir e-mails, relatórios ou posts, a IA costuma encher de emojis em cada tópico, usar clichês batidos (*"no mundo dinâmico de hoje"*, *"mergulhar a fundo"*) e começar com bajulação.
+
+Incluímos presets prontos para transformar sua IA em um redator humano e direto:
+
+* **Google Gemini (Gems):** Crie um Gem no Gemini com o guia em [`writing/gemini/gemini-gem-instructions.md`](./writing/gemini/gemini-gem-instructions.md).
+* **ChatGPT (Custom Instructions / GPTs):** Configure seu ChatGPT para textos usando [`writing/chatgpt/chatgpt-instructions.md`](./writing/chatgpt/chatgpt-instructions.md).
+* **Claude (Projects):** Configure no Claude usando [`writing/claude/claude-instructions.md`](./writing/claude/claude-instructions.md).
+* -> Veja exemplos reais de e-mails corporativos e resumos antes e depois em [`writing/examples/before-after-writing.md`](./writing/examples/before-after-writing.md).
+
+---
+
+## Exemplos: Antes vs. Depois (Código)
 
 Veja a diferença real na prática:
 
@@ -122,22 +135,29 @@ Veja a diferença real na prática:
 
 ```text
 clean-ai-code/
-├── CORE_RULES.md            # Fonte da verdade (regras em inglês para máxima aderência)
+├── CORE_RULES.md            # Regras centrais de código (inglês para máxima aderência)
 ├── README.md                # Documentação em Português
 ├── README.en.md             # Documentação em Inglês
 ├── README.ja.md             # Documentação em Japonês
 ├── install.sh               # Instalador Bash (Linux / macOS)
 ├── install.ps1              # Instalador PowerShell (Windows)
-├── platforms/
+├── platforms/               # Presets para ferramentas de código
 │   ├── antigravity/         # Preset para Antigravity & Gemini (Skill + Rule)
 │   ├── chatgpt/             # Preset para ChatGPT (Custom Instructions & System Prompt)
 │   ├── cursor/              # Preset para Cursor (.mdc e .cursorrules)
 │   ├── claude/              # Preset para Claude (CLAUDE.md)
 │   └── copilot/             # Preset para GitHub Copilot (.github/copilot-instructions.md)
+├── writing/                 # Presets para textos do dia a dia (redação, e-mails, relatórios)
+│   ├── CORE_WRITING_RULES.md # Regras centrais para textos sem emojis e sem clichês
+│   ├── gemini/              # Instruções para Gemini Gems
+│   ├── chatgpt/             # Instruções para ChatGPT (Textos)
+│   ├── claude/              # Instruções para Claude Projects (Textos)
+│   └── examples/            # Exemplos de e-mails corporativos antes vs depois
 └── examples/
-    ├── before-after.md      # Comparações Antes vs Depois
+    ├── before-after.md      # Comparações Antes vs Depois (Código)
     └── bad-habits-hall-of-shame.md # Hall da vergonha dos vícios de IA
 ```
+
 
 ---
 

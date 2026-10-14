@@ -95,7 +95,20 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 
 ---
 
-## Before vs. After（実際の比較）
+## ボーナス: 日常の文章作成・ビジネスメール（絵文字なし・AI定型句排除）
+
+AIの悪癖はプログラミングコードだけに留まりません。メール、議事録、ビジネスレポート、SNS記事の生成時にも、箇条書きのたびに絵文字（🚀, 💡, 🎯）が多用されたり、「目まぐるしく変化する現代において」「可能性を解き放つ」といった定型句が並びがちです。
+
+本リポジトリには、AIを自然で無駄のないプロのライターに変えるプリセットも同梱しています:
+
+* **Google Gemini (Gems):** [`writing/gemini/gemini-gem-instructions.md`](./writing/gemini/gemini-gem-instructions.md) を使ってGeminiに専用Gemを作成。
+* **ChatGPT (カスタム指示 / GPTs):** [`writing/chatgpt/chatgpt-instructions.md`](./writing/chatgpt/chatgpt-instructions.md) をカスタム指示に設定。
+* **Claude (Projects):** [`writing/claude/claude-instructions.md`](./writing/claude/claude-instructions.md) でClaude Projectsに設定。
+* -> ビジネスメールや要約文の Before/After 比較: [`writing/examples/before-after-writing.md`](./writing/examples/before-after-writing.md)
+
+---
+
+## Before vs. After（コードの実例比較）
 
 | シチュエーション | デフォルトのAI（悪癖あり） | Clean AI Code 適用後 |
 | :--- | :--- | :--- |
@@ -115,22 +128,29 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 
 ```text
 clean-ai-code/
-├── CORE_RULES.md            # 最も厳格な基本ルール（モデル遵守率を高めるため英語で記述）
+├── CORE_RULES.md            # 最も厳格な基本コードルール（英語）
 ├── README.md                # ポルトガル語ドキュメント
 ├── README.en.md             # 英語ドキュメント
 ├── README.ja.md             # 日本語ドキュメント
 ├── install.sh               # Bash用ユニバーサルインストーラー (macOS / Linux)
 ├── install.ps1              # PowerShell用インストーラー (Windows)
-├── platforms/
+├── platforms/               # コーディング支援AI用プリセット
 │   ├── antigravity/         # Antigravity & Gemini 用プリセット (Skill + Rule)
 │   ├── chatgpt/             # ChatGPT 用プリセット (Custom Instructions & System Prompt)
 │   ├── cursor/              # Cursor 用プリセット (.mdc および .cursorrules)
 │   ├── claude/              # Claude 用プリセット (CLAUDE.md)
 │   └── copilot/             # GitHub Copilot 用プリセット (.github/copilot-instructions.md)
+├── writing/                 # 日常の文章作成用プリセット（メール・レポート・文書作成）
+│   ├── CORE_WRITING_RULES.md # 文章作成専用の基本ルール（絵文字・AI定型句禁止）
+│   ├── gemini/              # Gemini Gems 用設定ガイド
+│   ├── chatgpt/             # ChatGPT (文章用) 設定ガイド
+│   ├── claude/              # Claude Projects (文章用) 設定ガイド
+│   └── examples/            # ビジネスメールのBefore/After実例
 └── examples/
-    ├── before-after.md      # Before vs After の実例比較
+    ├── before-after.md      # Before vs After の実例比較 (コード)
     └── bad-habits-hall-of-shame.md # AIコーディング悪癖の殿堂
 ```
+
 
 ---
 
