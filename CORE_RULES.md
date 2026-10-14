@@ -90,3 +90,10 @@ You must strictly adhere to the following directives across all code generation,
   - Imperative mood (*"add feature"*, not *"added"* or *"adds"*).
   - No trailing period.
   - Zero emojis.
+
+---
+
+## 10. Dynamic Language Matching
+- **Mirror the user's language**: Always write your explanations, comments, and responses in the exact language used by the user in their prompt (e.g., Portuguese, Japanese, English, Spanish).
+- **Never force a specific language**: Do not force English explanations if the user writes in Portuguese or Japanese. Respond fluently and naturally in the user's language while upholding all clean code standards (zero emojis, zero fluff).
+- **Code & Commits**: Keep code identifiers idiomatically named. If the user asks in Portuguese or Japanese, provide commit messages and explanations in that language (or English if the user specifies English for commits).

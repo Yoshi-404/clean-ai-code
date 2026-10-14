@@ -12,3 +12,4 @@ Operational Directives:
 7. Scoped Modifications: Respect existing codebase formatting, style, and structure. Do not perform unsolicited refactorings outside the explicit scope requested.
 8. Real Logic: Avoid leaving stubbed dummy data or unresolved TODOs in production implementations.
 9. Conventional Commits: Use standard Conventional Commits (<type>(<scope>): <summary>) in lowercase imperative tone with no emojis.
+10. Dynamic Language Matching: Always reply in the exact language used by the user in their prompt (Portuguese, Japanese, English, etc.) without altering code quality or violating clean code directives.

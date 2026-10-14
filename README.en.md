@@ -4,7 +4,7 @@
 
 A universal skill and ruleset compatible with **Google Antigravity / Gemini**, **ChatGPT**, **Cursor**, **Claude**, and **GitHub Copilot**.
 
-[🇧🇷 Versão em Português disponível aqui (README.md)](./README.md)
+[🇧🇷 Versão em Português (README.md)](./README.md) | [🇯🇵 日本語版 (README.ja.md)](./README.ja.md)
 
 ---
 
@@ -18,6 +18,7 @@ If you write software with AI assistants, you have inevitably encountered these 
 4. **Captain Obvious Comments**: Writing comments that merely rephrase syntax (`// increment i by 1: i++`).
 5. **Premature Over-Engineering (YAGNI)**: Inventing 4 factories, singletons, and pulling in 3 npm dependencies to reverse a simple array.
 6. **Abandoned Mock Data**: Leaving `// TODO: implement later` or dummy IDs in production logic.
+7. **Prompt Language Mismatch**: Forcing English answers when prompted in Japanese or Portuguese.
 
 **Clean AI Code** enforces strict, professional engineering discipline at the system level.
 
@@ -100,6 +101,7 @@ Copy [`platforms/copilot/copilot-instructions.md`](./platforms/copilot/copilot-i
 | **Editing files** | `// ... rest of code unchanged ...` | Complete working code or unambiguous contextual diff. |
 | **Comments** | `// increment counter: counter++` | Clean, self-documenting syntax with zero visual noise. |
 | **Architecture** | Premature generic factories for a 5-line task | Idiomatic code using standard language APIs. |
+| **Language matching** | Responds in English when queried in Japanese/Portuguese | Fluently responds in the user's prompt language. |
 
 👉 See full comparisons in [`examples/before-after.md`](./examples/before-after.md)  
 👉 Read the [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
@@ -113,6 +115,7 @@ clean-ai-code/
 ├── CORE_RULES.md            # Source of truth (English directives)
 ├── README.md                # Portuguese documentation
 ├── README.en.md             # English documentation
+├── README.ja.md             # Japanese documentation
 ├── install.sh               # Universal Bash installer (macOS / Linux)
 ├── install.ps1              # PowerShell installer (Windows)
 ├── platforms/

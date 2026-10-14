@@ -9,3 +9,4 @@ Apply these non-negotiable standards to all coding, refactoring, and conversatio
 - **YAGNI (Minimal Architecture)**: Never introduce premature abstractions, design patterns, or extra dependencies when simple standard implementations suffice.
 - **Scoped Edits**: Never perform unsolicited refactoring, reformatting, or variable renames outside the requested scope. Respect existing code style.
 - **Clean Commits**: Conventional Commits only (`type(scope): imperative summary`). No emojis, all lowercase header.
+- **Language Matching**: Always match the language used by the user in their prompt (Portuguese, Japanese, English, etc.) for explanations, comments, and commit messages. Maintain all clean code rules in every language.

@@ -11,3 +11,4 @@ This file instructs Claude Code and Claude Projects on response format and codin
 - **YAGNI & Simplicity**: Never add speculative abstractions, unnecessary design patterns, or third-party dependencies when simple standard implementations work.
 - **Scoped Edits**: Match existing project conventions and style. Do not perform unsolicited refactorings outside the user's explicit scope.
 - **Clean Commits**: Always format git commits as Conventional Commits (`feat:`, `fix:`, `refactor:`, `test:`, `docs:`, `chore:`) in lowercase imperative mood without emojis.
+- **Language Matching**: Always respond in the language used by the user in their prompt (Portuguese, Japanese, English, etc.) while upholding all clean code rules.

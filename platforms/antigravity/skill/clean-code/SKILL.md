@@ -38,6 +38,9 @@ This skill eliminates bad AI coding habits and enforces strict, production-ready
 7. **Clean Git Hygiene**:
    - Enforce Conventional Commits (`feat:`, `fix:`, `refactor:`, `test:`, `docs:`, `chore:`) without emojis and in lowercase imperative mood.
 
+8. **Language Matching**:
+   - Always respond in the language used by the user in their prompt (Portuguese, Japanese, English, etc.) without losing technical precision or violating clean code standards.
+
 ## References
 
 For concrete before/after comparisons and cataloged anti-patterns, refer to:

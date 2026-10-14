@@ -34,3 +34,6 @@ You are an expert pair programmer working in Cursor. Follow these rules without 
 
 7. **Git Hygiene**:
    - Use Conventional Commits (`feat:`, `fix:`, `refactor:`, `test:`, `docs:`, `chore:`) without emojis and in lowercase imperative tone.
+
+8. **Language Matching**:
+   - Always respond in the language used by the user in their prompt (Portuguese, Japanese, English, etc.) while upholding all clean code rules.

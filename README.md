@@ -4,7 +4,7 @@
 
 Uma skill e conjunto de regras universais compatíveis com **Google Antigravity / Gemini**, **ChatGPT**, **Cursor**, **Claude** e **GitHub Copilot**.
 
-[🇺🇸 English version available here (README.en.md)](./README.en.md)
+[🇺🇸 English version (README.en.md)](./README.en.md) | [🇯🇵 日本語版 (README.ja.md)](./README.ja.md)
 
 ---
 
@@ -18,6 +18,7 @@ Se você programa usando ferramentas de Inteligência Artificial, já deve ter s
 4. **Comentários Óbvios**: Comentar o que a sintaxe já diz (`// incrementa i em 1: i++`).
 5. **Over-Engineering (YAGNI)**: Criar 4 factories, singletons e instalar 3 bibliotecas npm para inverter uma string de 5 letras.
 6. **Dados Falsos Abandonados**: Deixar `// TODO: implementar depois` ou `userId = "123"` em código que deveria ser funcional.
+7. **Ignorar o Idioma do Usuário**: Responder em inglês quando o usuário perguntou em português ou japonês.
 
 **Clean AI Code** corrige a postura da IA na raiz através de diretrizes de alta prioridade.
 
@@ -110,6 +111,7 @@ Veja a diferença real na prática:
 | **Edição de arquivo** | `// ... resto do código inalterado ...` | Arquivo completo e funcional ou diff contextual claro. |
 | **Comentário** | `// incrementa count: count++` | Código expressivo e autoexplicativo, sem poluição. |
 | **Arquitetura** | Cria 3 classes e 2 padrões para um cálculo simples | Solução direta usando recursos nativos da linguagem. |
+| **Idioma da resposta** | Responde em inglês quando perguntado em português | Responde fluentemente no idioma em que foi perguntado. |
 
 👉 Confira todos os exemplos detalhados em [`examples/before-after.md`](./examples/before-after.md)  
 👉 Divirta-se (ou chore) com o [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
@@ -122,7 +124,8 @@ Veja a diferença real na prática:
 clean-ai-code/
 ├── CORE_RULES.md            # Fonte da verdade (regras em inglês para máxima aderência)
 ├── README.md                # Documentação em Português
-├── README.en.md             # English documentation
+├── README.en.md             # Documentação em Inglês
+├── README.ja.md             # Documentação em Japonês
 ├── install.sh               # Instalador Bash (Linux / macOS)
 ├── install.ps1              # Instalador PowerShell (Windows)
 ├── platforms/
