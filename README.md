@@ -1,4 +1,4 @@
-# Clean AI Code 🧼
+# Clean AI Code 
 
 > **Elimine os vícios de código de IA.** Sem emojis desnecessários, sem "Com certeza!", sem `// ... rest of code unchanged ...`, sem comentários óbvios e sem over-engineering.
 
@@ -8,7 +8,7 @@ Uma skill e conjunto de regras universais compatíveis com **Google Antigravity 
 
 ---
 
-## 🎯 Por que este projeto existe?
+## Por que este projeto existe?
 
 Se você programa usando ferramentas de Inteligência Artificial, já deve ter se deparado com estes comportamentos irritantes:
 
@@ -24,7 +24,7 @@ Se você programa usando ferramentas de Inteligência Artificial, já deve ter s
 
 ---
 
-## ⚡ Instalação Rápida (1 Comando)
+## Instalação Rápida (1 Comando)
 
 Clone o repositório e execute o instalador interativo:
 
@@ -50,7 +50,7 @@ Ou execute diretamente via flag:
 
 ---
 
-## 📦 Como Usar Manualmente por Plataforma
+## Como Usar Manualmente por Plataforma
 
 Se preferir não usar o script, basta copiar os arquivos prontos da pasta `platforms/`:
 
@@ -73,7 +73,7 @@ No ChatGPT, não há arquivos de configuração, mas sim as **Instruções Perso
 
 1. Abra o ChatGPT e vá em **Configurações** (`Settings`) > **Personalização** (`Personalization`) > **Instruções Personalizadas** (`Custom Instructions`).
 2. No campo **"Como você gostaria que o ChatGPT respondesse?"**, copie e cole o conteúdo de:  
-   👉 [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
+   -> [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
 3. Salve. Todas as novas conversas seguirão as diretrizes limpas.
 
 *(Para Custom GPTs ou uso via OpenAI API, use o prompt completo em [`platforms/chatgpt/system_prompt.txt`](./platforms/chatgpt/system_prompt.txt)).*
@@ -100,7 +100,7 @@ Copie o arquivo [`platforms/copilot/copilot-instructions.md`](./platforms/copilo
 
 ---
 
-## 🔍 Exemplos: Antes vs. Depois
+## Exemplos: Antes vs. Depois
 
 Veja a diferença real na prática:
 
@@ -113,12 +113,12 @@ Veja a diferença real na prática:
 | **Arquitetura** | Cria 3 classes e 2 padrões para um cálculo simples | Solução direta usando recursos nativos da linguagem. |
 | **Idioma da resposta** | Responde em inglês quando perguntado em português | Responde fluentemente no idioma em que foi perguntado. |
 
-👉 Confira todos os exemplos detalhados em [`examples/before-after.md`](./examples/before-after.md)  
-👉 Divirta-se (ou chore) com o [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
+-> Confira todos os exemplos detalhados em [`examples/before-after.md`](./examples/before-after.md)  
+-> Divirta-se (ou chore) com o [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 clean-ai-code/
@@ -141,7 +141,7 @@ clean-ai-code/
 
 ---
 
-## 🤝 Como Contribuir
+## Como Contribuir
 
 Identificou um novo vício que os modelos de IA adquiriram recentemente?
 1. Faça um Fork do projeto.
@@ -150,6 +150,6 @@ Identificou um novo vício que os modelos de IA adquiriram recentemente?
 
 ---
 
-## 📄 Licença
+## Licença
 
 Distribuído sob a licença [MIT](./LICENSE). Use livremente em seus projetos pessoais ou corporativos.
