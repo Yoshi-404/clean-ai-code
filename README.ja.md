@@ -1,4 +1,4 @@
-# Clean AI Code 🧼
+# Clean AI Code 
 
 > **AIコーディングの悪癖を根絶する。**  
 > 不要な絵文字の乱用なし、「承知いたしました！」などの前置き・お世辞なし、`// ... 残りのコード ...` の省略なし、自明なコメントなし、過剰設計（YAGNI違反）なし。
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 なぜこのプロジェクトが必要なのか？
+## なぜこのプロジェクトが必要なのか？
 
 AIアシスタントを使って開発を進める際、以下のような振る舞いにストレスを感じたことはありませんか？
 
@@ -25,7 +25,7 @@ AIアシスタントを使って開発を進める際、以下のような振る
 
 ---
 
-## ⚡ ワンコマンドでの簡単インストール
+## ワンコマンドでの簡単インストール
 
 リポジトリをクローンしてインストーラーを実行します:
 
@@ -51,7 +51,7 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 
 ---
 
-## 📦 プラットフォーム別の手動設定
+## プラットフォーム別の手動設定
 
 スクリプトを使わず手動で導入したい場合は、`platforms/` ディレクトリ内のファイルをコピーして使用してください:
 
@@ -72,7 +72,7 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 ### 2. ChatGPT (Web & モバイル)
 1. ChatGPTを開き、**設定 (Settings)** > **パーソナライズ (Personalization)** > **カスタム指示 (Custom Instructions)** を開きます。
 2. **「ChatGPTにどのように回答してほしいですか？」(How would you like ChatGPT to respond?)** の入力欄に、以下のファイル内容を貼り付けます:  
-   👉 [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
+   -> [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
 3. 保存すると、以降のすべてのチャットにクリーンコード規約が適用されます。
 
 *(Custom GPTs や OpenAI API で使用する場合は、[`platforms/chatgpt/system_prompt.txt`](./platforms/chatgpt/system_prompt.txt) を使用してください。)*
@@ -95,7 +95,7 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 
 ---
 
-## 🔍 Before vs. After（実際の比較）
+## Before vs. After（実際の比較）
 
 | シチュエーション | デフォルトのAI（悪癖あり） | Clean AI Code 適用後 |
 | :--- | :--- | :--- |
@@ -106,12 +106,12 @@ CLIオプションを指定して特定のツールへ即座に反映するこ�
 | **アーキテクチャ** | 5行の関数に対して無駄なFactoryパターンを生成 | 標準APIを活用した最もシンプルで保守しやすい設計 |
 | **言語の追従** | 日本語で聞いたのに英語で長文解説 | ユーザーが入力した言語（日本語・英語・ポルトガル語等）に合わせて回答 |
 
-👉 詳細な比較例: [`examples/before-after.md`](./examples/before-after.md)  
-👉 AIの悪癖カタログ: [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
+-> 詳細な比較例: [`examples/before-after.md`](./examples/before-after.md)  
+-> AIの悪癖カタログ: [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
 
 ---
 
-## 📂 リポジトリ構成
+## リポジトリ構成
 
 ```text
 clean-ai-code/
@@ -134,7 +134,7 @@ clean-ai-code/
 
 ---
 
-## 🤝 コントリビューション
+## コントリビューション
 
 新しいモデルのアップデートで新たなAIの悪癖を発見しましたか？
 1. 本リポジトリをForkしてください。
@@ -143,6 +143,6 @@ clean-ai-code/
 
 ---
 
-## 📄 ライセンス
+## ライセンス
 
 本プロジェクトは [MIT License](./LICENSE) のもとで公開されています。個人・商用問わず自由にご利用いただけます。
