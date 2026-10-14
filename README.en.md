@@ -1,4 +1,4 @@
-# Clean AI Code 🧼
+# Clean AI Code 
 
 > **Eliminate AI coding vices.** No unwanted emojis, no "Sure! Certainly!", no `// ... rest of code unchanged ...`, no trivial comments, and no over-engineering.
 
@@ -8,7 +8,7 @@ A universal skill and ruleset compatible with **Google Antigravity / Gemini**, *
 
 ---
 
-## 🎯 Why This Project Exists
+## Why This Project Exists
 
 If you write software with AI assistants, you have inevitably encountered these infuriating habits:
 
@@ -24,7 +24,7 @@ If you write software with AI assistants, you have inevitably encountered these 
 
 ---
 
-## ⚡ Quick Install (Single Command)
+## Quick Install (Single Command)
 
 Clone the repository and run the installer:
 
@@ -50,7 +50,7 @@ Or target specific tools directly via CLI flags:
 
 ---
 
-## 📦 Manual Setup by Platform
+## Manual Setup by Platform
 
 ### 1. Google Antigravity / Gemini CLI
 Choose one of the following methods:
@@ -69,7 +69,7 @@ Choose one of the following methods:
 ### 2. ChatGPT (Web & Mobile)
 1. In ChatGPT, open **Settings** > **Personalization** > **Custom Instructions**.
 2. In **"How would you like ChatGPT to respond?"**, paste the contents of:  
-   👉 [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
+   -> [`platforms/chatgpt/custom_instructions.md`](./platforms/chatgpt/custom_instructions.md)
 3. Save. All future chats will adhere to clean code standards.
 
 *(For Custom GPTs or OpenAI API, use [`platforms/chatgpt/system_prompt.txt`](./platforms/chatgpt/system_prompt.txt)).*
@@ -92,7 +92,7 @@ Copy [`platforms/copilot/copilot-instructions.md`](./platforms/copilot/copilot-i
 
 ---
 
-## 🔍 Examples: Before vs. After
+## Examples: Before vs. After
 
 | Scenario | Default AI Habit (Vice) | Clean AI Code |
 | :--- | :--- | :--- |
@@ -103,12 +103,12 @@ Copy [`platforms/copilot/copilot-instructions.md`](./platforms/copilot/copilot-i
 | **Architecture** | Premature generic factories for a 5-line task | Idiomatic code using standard language APIs. |
 | **Language matching** | Responds in English when queried in Japanese/Portuguese | Fluently responds in the user's prompt language. |
 
-👉 See full comparisons in [`examples/before-after.md`](./examples/before-after.md)  
-👉 Read the [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
+-> See full comparisons in [`examples/before-after.md`](./examples/before-after.md)  
+-> Read the [`examples/bad-habits-hall-of-shame.md`](./examples/bad-habits-hall-of-shame.md)
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 clean-ai-code/
@@ -131,7 +131,7 @@ clean-ai-code/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Notice a new AI vice in recent model updates?
 1. Fork the repository.
@@ -140,6 +140,6 @@ Notice a new AI vice in recent model updates?
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the [MIT License](./LICENSE). Free for personal and commercial use.
