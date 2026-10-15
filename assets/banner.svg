@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glowRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Window Background -->
+  <rect x="0" y="0" width="960" height="420" rx="14" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Window Header Bar -->
+  <rect x="0" y="0" width="960" height="42" rx="14" fill="#0b0f19"/>
+  <rect x="0" y="28" width="960" height="14" fill="#0b0f19"/>
+  <line x1="0" y1="42" x2="960" y2="42" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- macOS Window Dots -->
+  <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="44" cy="21" r="6" fill="#f59e0b"/>
+  <circle cx="64" cy="21" r="6" fill="#10b981"/>
+
+  <!-- Window Title -->
+  <text x="480" y="26" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="0.5">clean-ai-code — comparison preview</text>
+
+  <!-- Left Card: AI Padrão (Vícios) -->
+  <rect x="24" y="60" width="444" height="336" rx="10" fill="#090d16" stroke="#334155" stroke-width="1"/>
+  <rect x="24" y="60" width="444" height="336" rx="10" fill="url(#glowRed)"/>
+  
+  <!-- Left Badge -->
+  <rect x="40" y="76" width="130" height="24" rx="12" fill="#450a0a" stroke="#b91c1c" stroke-width="1"/>
+  <circle cx="52" cy="88" r="4" fill="#ef4444"/>
+  <text x="64" y="92" fill="#fca5a5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">IA PADRÃO (VÍCIOS)</text>
+
+  <!-- Left Code Content -->
+  <g font-family="'SF Mono', Menlo, Consolas, Monaco, monospace" font-size="12" fill="#cbd5e1">
+    <text x="40" y="130" fill="#94a3b8">User: Adicione rota de logout</text>
+    <text x="40" y="156" fill="#f87171">AI: Com certeza! Ficarei feliz em ajudar! 🚀</text>
+    <text x="40" y="186" fill="#64748b">// 💡 Inicializa o router</text>
+    <text x="40" y="206" fill="#93c5fd">import <tspan fill="#e2e8f0">{ Router }</tspan> from <tspan fill="#86efac">'express'</tspan>;</text>
+    <text x="40" y="226" fill="#64748b">// ... restante dos imports ...</text>
+    <text x="40" y="252" fill="#93c5fd">router.post<tspan fill="#e2e8f0">(</tspan><tspan fill="#86efac">'/logout'</tspan>, <tspan fill="#e2e8f0">(req, res) =&gt; {</tspan></text>
+    <text x="56" y="272" fill="#64748b">// TODO: destruir a sessão aqui depois</text>
+    <text x="56" y="292" fill="#e2e8f0">res.json({ ok: <tspan fill="#f59e0b">true</tspan> });</text>
+    <text x="40" y="312" fill="#e2e8f0">});</text>
+    <text x="40" y="338" fill="#f87171">// ... restante do arquivo inalterado ...</text>
+    <text x="40" y="364" fill="#94a3b8">commit: <tspan fill="#f87171">"feat: added logout route! 🔒✨🎉"</tspan></text>
+  </g>
+
+  <!-- Right Card: Clean AI Code -->
+  <rect x="492" y="60" width="444" height="336" rx="10" fill="#090d16" stroke="#059669" stroke-width="1"/>
+  <rect x="492" y="60" width="444" height="336" rx="10" fill="url(#glowGreen)"/>
+
+  <!-- Right Badge -->
+  <rect x="508" y="76" width="138" height="24" rx="12" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+  <circle cx="520" cy="88" r="4" fill="#10b981"/>
+  <text x="532" y="92" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">CLEAN AI CODE (LIMPO)</text>
+
+  <!-- Right Code Content -->
+  <g font-family="'SF Mono', Menlo, Consolas, Monaco, monospace" font-size="12" fill="#cbd5e1">
+    <text x="508" y="130" fill="#94a3b8">User: Adicione rota de logout</text>
+    <text x="508" y="156" fill="#34d399">@@ -18,4 +18,8 @@ router.post('/login', loginHandler);</text>
+    <text x="508" y="186" fill="#34d399">+router.post('/logout', (req, res) =&gt; {</text>
+    <text x="524" y="206" fill="#34d399">+  req.session.destroy();</text>
+    <text x="524" y="226" fill="#34d399">+  res.clearCookie('sid');</text>
+    <text x="524" y="246" fill="#34d399">+  res.status(204).end();</text>
+    <text x="508" y="266" fill="#34d399">+});</text>
+    <text x="508" y="296" fill="#94a3b8">Zero conversa fiada. Sem truncamento.</text>
+    <text x="508" y="316" fill="#94a3b8">Tratamento real de sessão.</text>
+    <text x="508" y="342" fill="#6ee7b7">commit: <tspan fill="#34d399">"feat(auth): implement session logout endpoint"</tspan></text>
+    <text x="508" y="368" fill="#10b981">✓ Sem emojis  ✓ Diff exato  ✓ Conventional Commits</text>
+  </g>
+</svg>

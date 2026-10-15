@@ -6,25 +6,13 @@ Uma skill e conjunto de regras universais compatíveis com **Google Antigravity 
 
 [🇺🇸 English version (README.en.md)](./README.en.md) | [🇯🇵 日本語版 (README.ja.md)](./README.ja.md)
 
----
-
-## Por que este projeto existe?
-
-Se você programa usando ferramentas de Inteligência Artificial, já deve ter se deparado com estes comportamentos irritantes:
-
-1. **Chuva de Emojis**: Emojis em commits (`feat: add login 🚀✨`), em comentários (`// 🔥 Inicia banco`) e em logs.
-2. **Conversa Fiada e Bajulação**: Começar toda resposta com *"Com certeza! Ficarei feliz em ajudar..."* e terminar com *"Espero que ajude! Diga se tiver dúvidas!"*.
-3. **Preguiça de Código**: Escrever `// ... restante do código inalterado ...`, quebrando o Copiar/Colar e linters.
-4. **Comentários Óbvios**: Comentar o que a sintaxe já diz (`// incrementa i em 1: i++`).
-5. **Over-Engineering (YAGNI)**: Criar 4 factories, singletons e instalar 3 bibliotecas npm para inverter uma string de 5 letras.
-6. **Dados Falsos Abandonados**: Deixar `// TODO: implementar depois` ou `userId = "123"` em código que deveria ser funcional.
-7. **Ignorar o Idioma do Usuário**: Responder em inglês quando o usuário perguntou em português ou japonês.
-
-**Clean AI Code** corrige a postura da IA na raiz através de diretrizes de alta prioridade.
+<p align="center">
+  <img src="./assets/banner.svg" alt="Clean AI Code Banner" width="100%">
+</p>
 
 ---
 
-## Instalação Rápida (1 Comando)
+## Como rodar / Instalação Rápida (1 Comando)
 
 Clone o repositório e execute o instalador interativo:
 
@@ -47,6 +35,22 @@ Ou execute diretamente via flag:
 
 > **Usuários Windows (PowerShell):**  
 > `.\install.ps1 -All` ou `.\install.ps1 -AntigravityGlobal`
+
+---
+
+## Por que este projeto existe?
+
+Se você programa usando ferramentas de Inteligência Artificial, já deve ter se deparado com estes comportamentos irritantes:
+
+1. **Chuva de Emojis**: Emojis em commits (`feat: add login 🚀✨`), em comentários (`// 🔥 Inicia banco`) e em logs.
+2. **Conversa Fiada e Bajulação**: Começar toda resposta com *"Com certeza! Ficarei feliz em ajudar..."* e terminar com *"Espero que ajude! Diga se tiver dúvidas!"*.
+3. **Preguiça de Código**: Escrever `// ... restante do código inalterado ...`, quebrando o Copiar/Colar e linters.
+4. **Comentários Óbvios**: Comentar o que a sintaxe já diz (`// incrementa i em 1: i++`).
+5. **Over-Engineering (YAGNI)**: Criar 4 factories, singletons e instalar 3 bibliotecas npm para inverter uma string de 5 letras.
+6. **Dados Falsos Abandonados**: Deixar `// TODO: implementar depois` ou `userId = "123"` em código que deveria ser funcional.
+7. **Ignorar o Idioma do Usuário**: Responder em inglês quando o usuário perguntou em português ou japonês.
+
+**Clean AI Code** corrige a postura da IA na raiz através de diretrizes de alta prioridade.
 
 ---
 

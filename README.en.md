@@ -6,25 +6,13 @@ A universal skill and ruleset compatible with **Google Antigravity / Gemini**, *
 
 [🇧🇷 Versão em Português (README.md)](./README.md) | [🇯🇵 日本語版 (README.ja.md)](./README.ja.md)
 
----
-
-## Why This Project Exists
-
-If you write software with AI assistants, you have inevitably encountered these infuriating habits:
-
-1. **Emoji Pollution**: Emojis in git commits (`feat: add auth 🚀✨`), in comments (`// 💡 Start DB`), and in runtime logs.
-2. **Conversational Sycophancy**: Starting every reply with *"Certainly! I would be delighted to help you..."* and ending with *"I hope this helps! Feel free to ask!"*.
-3. **Lazy Truncation**: Dropping `// ... rest of code remains unchanged ...`, breaking clipboard copy-pasting and linters.
-4. **Captain Obvious Comments**: Writing comments that merely rephrase syntax (`// increment i by 1: i++`).
-5. **Premature Over-Engineering (YAGNI)**: Inventing 4 factories, singletons, and pulling in 3 npm dependencies to reverse a simple array.
-6. **Abandoned Mock Data**: Leaving `// TODO: implement later` or dummy IDs in production logic.
-7. **Prompt Language Mismatch**: Forcing English answers when prompted in Japanese or Portuguese.
-
-**Clean AI Code** enforces strict, professional engineering discipline at the system level.
+<p align="center">
+  <img src="./assets/banner.svg" alt="Clean AI Code Banner" width="100%">
+</p>
 
 ---
 
-## Quick Install (Single Command)
+## How to Run / Quick Install (Single Command)
 
 Clone the repository and run the installer:
 
@@ -47,6 +35,22 @@ Or target specific tools directly via CLI flags:
 
 > **Windows Users (PowerShell):**  
 > `.\install.ps1 -All` or `.\install.ps1 -AntigravityGlobal`
+
+---
+
+## Why This Project Exists
+
+If you write software with AI assistants, you have inevitably encountered these infuriating habits:
+
+1. **Emoji Pollution**: Emojis in git commits (`feat: add auth 🚀✨`), in comments (`// 💡 Start DB`), and in runtime logs.
+2. **Conversational Sycophancy**: Starting every reply with *"Certainly! I would be delighted to help you..."* and ending with *"I hope this helps! Feel free to ask!"*.
+3. **Lazy Truncation**: Dropping `// ... rest of code remains unchanged ...`, breaking clipboard copy-pasting and linters.
+4. **Captain Obvious Comments**: Writing comments that merely rephrase syntax (`// increment i by 1: i++`).
+5. **Premature Over-Engineering (YAGNI)**: Inventing 4 factories, singletons, and pulling in 3 npm dependencies to reverse a simple array.
+6. **Abandoned Mock Data**: Leaving `// TODO: implement later` or dummy IDs in production logic.
+7. **Prompt Language Mismatch**: Forcing English answers when prompted in Japanese or Portuguese.
+
+**Clean AI Code** enforces strict, professional engineering discipline at the system level.
 
 ---
 
